@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+destination.md
+phase1.md
+phase2.md
+prompt.md
