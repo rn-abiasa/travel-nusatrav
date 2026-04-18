@@ -58,7 +58,10 @@ function StarRating({ rating }: { rating: number }) {
 
 function Testimonials() {
   return (
-    <section id="testimonials" className="px-4 sm:px-6 lg:px-8 py-20 bg-muted/40">
+    <section
+      id="testimonials"
+      className="px-4 sm:px-6 lg:px-8 py-20 bg-muted/40"
+    >
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <div className="text-center max-w-xl mx-auto">
@@ -99,7 +102,9 @@ function Testimonials() {
                   {item.avatar}
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-foreground">{item.name}</p>
+                  <p className="text-sm font-semibold text-foreground">
+                    {item.name}
+                  </p>
                   <p className="text-xs text-muted-foreground">{item.role}</p>
                 </div>
               </div>

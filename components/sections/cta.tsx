@@ -32,10 +32,7 @@ function CTA() {
               terbaik dan mulai perjalanan impianmu hari ini bersama NusaTrav.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row items-center gap-3">
-              <Button
-                size="lg"
-                className="gap-2 px-6 rounded-full"
-              >
+              <Button size="lg" className="gap-2 px-6 rounded-full">
                 Pesan Sekarang <ArrowUpRight className="size-4" />
               </Button>
               <Button

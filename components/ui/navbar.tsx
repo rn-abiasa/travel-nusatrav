@@ -8,17 +8,40 @@ function Navbar() {
         <div className="max-w-7xl mx-auto flex justify-between items-center py-4">
           {/* Logo */}
           <div>
-            <a href="" className="text-lg md:text-xl font-semibold tracking-tight">
+            <a
+              href=""
+              className="text-lg md:text-xl font-semibold tracking-tight"
+            >
               NusaTrav.
             </a>
           </div>
 
           {/* Desktop Nav Links */}
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">
-            <a href="#destinations" className="hover:text-foreground transition-colors">Destinations</a>
-            <a href="#services" className="hover:text-foreground transition-colors">Services</a>
-            <a href="#about" className="hover:text-foreground transition-colors">About</a>
-            <a href="#testimonials" className="hover:text-foreground transition-colors">Reviews</a>
+            <a
+              href="#destinations"
+              className="hover:text-foreground transition-colors"
+            >
+              Destinations
+            </a>
+            <a
+              href="#services"
+              className="hover:text-foreground transition-colors"
+            >
+              Services
+            </a>
+            <a
+              href="#about"
+              className="hover:text-foreground transition-colors"
+            >
+              About
+            </a>
+            <a
+              href="#testimonials"
+              className="hover:text-foreground transition-colors"
+            >
+              Reviews
+            </a>
           </nav>
 
           {/* CTA Button */}
@@ -34,4 +57,3 @@ function Navbar() {
 }
 
 export default Navbar;
-

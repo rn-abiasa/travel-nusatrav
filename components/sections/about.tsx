@@ -47,7 +47,9 @@ function About() {
               {/* Floating stat card */}
               <div className="absolute bottom-5 left-5 bg-background/90 backdrop-blur-sm rounded-2xl px-5 py-4 shadow-lg">
                 <p className="text-2xl font-bold text-foreground">10+</p>
-                <p className="text-sm text-muted-foreground">Years of Experience</p>
+                <p className="text-sm text-muted-foreground">
+                  Years of Experience
+                </p>
               </div>
             </div>
           </div>
@@ -74,7 +76,9 @@ function About() {
                     {item.icon}
                   </div>
                   <div>
-                    <h3 className="text-sm font-semibold text-foreground">{item.title}</h3>
+                    <h3 className="text-sm font-semibold text-foreground">
+                      {item.title}
+                    </h3>
                     <p className="text-sm text-muted-foreground mt-1 leading-relaxed">
                       {item.description}
                     </p>

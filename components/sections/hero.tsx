@@ -13,12 +13,15 @@ function Hero() {
                 </p>
                 <div className="flex justify-center items-center gap-3 mt-2">
                   <div className="flex -space-x-3">
-                    <div className="bg-white border h-8 w-8 rounded-full"></div>
-                    <div className="bg-white border h-8 w-8 rounded-full"></div>
-                    <div className="bg-white border h-8 w-8 rounded-full"></div>
+                    <div className="bg-[url('/person.png')] bg-cover bg-center border h-8 w-8 rounded-full"></div>
+                    <div className="bg-[url('/person2.png')] bg-cover bg-center border h-8 w-8 rounded-full"></div>
+                    <div className="bg-[url('/person3.png')] bg-cover bg-center border h-8 w-8 rounded-full"></div>
+                    <div className="bg-gray-100 border h-8 w-8 rounded-full flex justify-center items-center text-sm font-semibold">
+                      50+
+                    </div>
                   </div>
                   <p className="text-sm font-normal text-white/80">
-                    25 people booked a visit in last 24 hours
+                    60 people booked a visit in last 24 hours
                   </p>
                 </div>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-white text-center mt-5 max-w-3xl leading-tight">
